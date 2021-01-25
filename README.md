@@ -17,15 +17,15 @@ Or Simply, you can download project as clicking 'Download ZIP'.
 
 Don't forget changing name and version in `package.json`
 
-## Dev(Debug) Mode
-Using terminal, just type `yarn dev` or `npm run dev`.
+## Script: Dev(Debug)
+Using terminal, just type `yarn dev` or `npm run dev` for development.
 
 
 `dev` script uses `nodemon` dependency.
 
 
 
-## Deploy Mode
-Using terminal, just type `yarn deploy` or `npm run deploy`
+## Script: Deploy
+Using terminal, just type `yarn deploy` or `npm run deploy` for deploy.
 
 `deploy` script uses `forever` dependency.
