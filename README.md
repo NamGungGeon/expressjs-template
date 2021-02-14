@@ -9,11 +9,8 @@ And also, Useful scripts(dev, deploy) are added.
 
 
 ## Usage
-fork this repository to your repository.
+Click `Use this template` button and create your own repository based on `expressjs-template`.
 
-In desktop, click fork icon on the top of right of this page.
-
-Or Simply, you can download project as clicking 'Download ZIP'.
 
 Don't forget changing name and version in `package.json`
 
