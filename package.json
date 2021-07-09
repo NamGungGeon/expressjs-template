@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "dev": "nodemon ./bin/www",
+    "dev": "NODE_ENV=DEBUG nodemon ./bin/www",
     "deploy": "forever -m=10000 --minUptime=1000 --spinSleepTime=1000 -w start ./bin/www"
   },
   "dependencies": {
