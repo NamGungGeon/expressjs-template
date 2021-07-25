@@ -6,7 +6,7 @@
     "start": "node ./bin/www",
     "dev": "NODE_ENV=DEBUG nodemon ./bin/www",
     "predeploy": "npm install && npm install forever -g",
-    "deploy": "forever -m=10000 --minUptime=1000 --spinSleepTime=1000 --uid=$npm_package_name -w start ./bin/www",
+    "deploy": "forever -m=10000 --minUptime=1000 --spinSleepTime=1000 --uid=$npm_package_name -w -a start ./bin/www",
     "stopDeploy": "forever stop $npm_package_name",
     "reDeploy": "npm run stopDeploy && npm run deploy"
   },
