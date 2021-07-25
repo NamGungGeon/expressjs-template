@@ -11,7 +11,8 @@ And also, Useful scripts(dev, deploy) are added.
 Click `Use this template` button and create your own repository based on `expressjs-template`.
 
 Don't forget changing name and version in `package.json`
-(You must change project name. The all `deploy`-about scripts are using project name for identifying projects.)
+
+(You must change project name. All `deploy`-about scripts are using project name for identifying projects.)
 
 ## Script: dev(Debug)
 
